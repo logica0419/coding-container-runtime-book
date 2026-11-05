@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Ruby
+Gemfile.lock
+
+# Build output
+dist/
+.sass-cache/
+articles/_refiles/
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# dotenv environment variable files
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# vscode setting folder
+.vscode/
+devcontainer-lock.json
+
+# Agent files (blacklist: only externally synced skills are ignored)
+.agents/skills/slopless
+.agents/skills/stop-slop/
+.agents/skills/yomiyasu/
+.claude/skills/slopless
+.claude/skills/stop-slop/
+.claude/skills/yomiyasu/
